@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('description');
             $table->text('content');
             $table->string('url');
-            $table->string('url-_image');
-            $table->dateTime('published_at');
+            $table->string('url_image');
+            $table->date('published_at');
             $table->string('category');
             $table->timestamps();
         });
